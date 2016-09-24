@@ -19,7 +19,7 @@ router.delete('/api/users/:user_id', userCtrl.deleteUser);
 router.get('/api/articles', articleCtrl.articles);
 router.get('/api/feed/title', articleCtrl.articlesByTitle);
 router.get('/api/feed/date', articleCtrl.articlesByDate);
-router.post('/api/articles/:article_id', articleCtrl.createArticle);
+router.post('/api/articles', articleCtrl.createArticle);
 router.get('/api/articles/:article_id', articleCtrl.readArticle);
 router.put('/api/articles/:article_id', articleCtrl.updateArticle);
 router.delete('/api/articles/:article_id', articleCtrl.deleteArticle);

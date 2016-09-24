@@ -6,7 +6,7 @@ module.exports.articles = function(req, res) {
     if (err) {
       res.send(err);
     }
-    res.json(articles);
+    res.status(200).json(articles);
   });
 };
 
@@ -15,7 +15,7 @@ module.exports.articlesByTitle = function(req, res) {
     if (err) {
       res.send(err);
     }
-    res.json(articles);
+    res.status(200).json(articles);
   });
 };
 
@@ -41,7 +41,7 @@ module.exports.createArticle = function(req, res) {
     if (err) {
       res.send(err);
     }
-    res.json(article);
+    res.status(200).json(article);
   });
 };
 
@@ -67,7 +67,7 @@ module.exports.updateArticle = function(req, res) {
     if (err) {
       res.send(err);
     }
-    res.json(article);
+    res.status(200).json(article);
   });
 };
 
