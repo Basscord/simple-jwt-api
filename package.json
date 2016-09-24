@@ -1,0 +1,21 @@
+{
+  "name": "simple-jwt-api",
+  "version": "1.0.0",
+  "description": "simple-jwt-api",
+  "author": "Brian Mau",
+  "scripts": {
+    "start": "node index.js",
+    "mongodb": "mongodb",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.13.3",
+    "express-jwt": "^5.0.0",
+    "jsonwebtoken": "^7.1.9",
+    "method-override": "^2.3.6",
+    "mongodb": "^2.2.9",
+    "mongoose": "^4.6.0"
+  },
+  "devDependencies": {}
+}
